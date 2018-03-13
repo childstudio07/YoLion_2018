@@ -2,6 +2,7 @@
 
 public class Knight : MonoBehaviour
 {
+    #region 屬性
     // 宣告變數語法：
     // 修飾詞 變數類型 變數名稱 指定 值 結尾
     // 整數 int                    預設值 0
@@ -23,4 +24,5 @@ public class Knight : MonoBehaviour
     private int Lv = 1;
     private int Coin;
     private string Name = "女騎士";
+    #endregion
 }
